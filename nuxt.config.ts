@@ -1,7 +1,7 @@
 import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
-  ssr: true, // Habilitado para melhor SEO
+  ssr: false, // Habilitado para melhor SEO
   modules: [
     '@nuxtjs/i18n',
     '@nuxtjs/robots' // Para robots.txt
@@ -44,6 +44,7 @@ export default defineNuxtConfig({
 
   // Configurações de SEO e Performance
   app: {
+    baseURL: '/',
     head: {
       htmlAttrs: {
         lang: 'en'
@@ -133,6 +134,17 @@ export default defineNuxtConfig({
             ]
           })
         }
+      ]
+    }
+  },
+
+  nitro: {
+    preset: 'github-pages',
+    prerender: {
+      crawlLinks: true,
+      routes: [
+        '/',
+        '/pt'
       ]
     }
   },
