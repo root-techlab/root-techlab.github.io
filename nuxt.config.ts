@@ -44,7 +44,9 @@ export default defineNuxtConfig({
 
   // Configurações de SEO e Performance
   app: {
-    baseURL: '/',
+    baseURL: process.env.NODE_ENV === 'production' 
+      ? '/root-techlab.github.io/' // ou '/nome-repo/' se não tiver domínio customizado
+      : '/',
     head: {
       htmlAttrs: {
         lang: 'en'
@@ -134,17 +136,6 @@ export default defineNuxtConfig({
             ]
           })
         }
-      ]
-    }
-  },
-
-  nitro: {
-    preset: 'github-pages',
-    prerender: {
-      crawlLinks: true,
-      routes: [
-        '/',
-        '/pt'
       ]
     }
   },
