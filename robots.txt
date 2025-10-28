@@ -1,7 +1,0 @@
-# START nuxt-robots (indexable)
-User-agent: *
-Allow: /
-Allow: /pt/
-
-Sitemap: https://root-techlab.com/sitemap.xml
-# END nuxt-robots
