@@ -1,0 +1,95 @@
+{
+  "nav": {
+    "home": "Home",
+    "language_switch": "Seleção de idioma",
+    "switch_to_english": "Switch to English",
+    "switch_to_portuguese": "Mudar para Português"
+  },
+  "seo": {
+    "title": "Root Techlab - Tecnologia com propósito",
+    "description": "Desenvolvimento web moderno, soluções DevOps e IA aplicada. Da loja física ao digital: transformamos experiência prática em soluções tecnológicas escaláveis."
+  },
+  "home": {
+    "hero": {
+      "title": "Tecnologia com propósito",
+      "subtitle": "Construímos soluções digitais a partir da experiência real.",
+      "background_alt": "Workspace Root Techlab"
+    },
+    "terminal": {
+      "label": "Preview da interface terminal",
+      "command": "init lab",
+      "open": "Abrir terminal",
+      "open_aria": "Abrir interface do terminal"
+    }
+  },
+  "about": {
+    "title": "Sobre",
+    "text": "Root Techlab nasceu da necessidade real: transformar um negócio físico em presença digital completa. Oferecemos essa expertise para outros negócios, enquanto exploramos o futuro com IA aplicada.",
+    "iam": "Quem sou eu",
+    "mission": "Missão",
+    "values" : "Valores",
+    "me": "Full Stack Developer • DevOps • AI Researcher",
+    "misson-text": "Criar tecnologia que resolve problemas reais e escala com inteligência.",
+    "values-text": "Pragmatismo · Open-source · Segurança · Inovação incremental"
+
+  },
+  "services": {
+    "title": "Serviços",
+    "items": {
+      "web": "Sites e aplicações web modernas.",
+      "devops": "Infraestrutura cloud, automação e pipelines CI/CD. Experiência prática com deployment e escalabilidade.",
+      "content": "Estratégia e criação de conteúdo digital. Instagram, blog e presença online consistente.",
+      "ai": "Soluções com IA em desenvolvimento. RAG para conhecimento especializado e automação inteligente."
+    }
+  },
+  "projects": {
+    "title": "Projetos",
+    "placeholder": "Nossos projetos mostram tecnologia aplicada a problemas reais.",
+    "root_loja": {
+      "title": "Root - Loja de Plantas",
+      "description": "Site-catálogo, blog de conteúdo sobre plantas e estratégia completa de presença digital para loja física."
+    },
+    "plant_rag": {
+      "title": "Plant Knowledge AI (em desenvolvimento)",
+      "description": "Sistema RAG especializado em conhecimento botânico. Aplicando IA generativa para consultas inteligentes sobre plantas."
+    },
+    "techlab_site": {
+      "title": "Root Techlab Platform",
+      "description": "Showcase técnico das capacidades da startup. Desenvolvido com tecnologias modernas e foco em performance."
+    },
+    "cta_text": "Quer transformar seu negócio com soluções digitais reais?",
+    "cta_button": "Entre em Contato",
+    "cta_aria": "Fale conosco sobre seu projeto"
+  },
+  "contact": {
+    "title": "Contato",
+    "prompt": "Vamos conversar sobre como a tecnologia pode resolver seus desafios reais.",
+    "email": "Email",
+    "email_aria": "Envie um email",
+    "linkedin_aria": "Visite nosso perfil no LinkedIn",
+    "instagram_aria": "Siga no Instagram",
+    "location": "Localização",
+    "response_time": "Respondemos em até 24 horas"
+  },
+  "terminal": {
+    "modal_label": "Interface do terminal",
+    "close": "Fechar terminal",
+    "initializing": "Inicializando lab...",
+    "loading_modules": "Carregando módulos: web, devops, content, ai-research",
+    "checking_infra": "Verificando infraestrutura: OK",
+    "starting_experiment": "Iniciando experimento RAG... (protótipo)",
+    "ready": "Pronto. Digite 'help' para ver comandos disponíveis."
+  },
+  "footer": {
+    "description": "Soluções digitais nascidas da prática. Desenvolvemos tecnologia que resolve problemas reais e prepara negócios para o futuro.",
+    "quick_links": "Links Rápidos",
+    "contact_info": "Contato",
+    "rights_reserved": "Todos os direitos reservados.",
+    "built_with": " ",
+    "for_sustainable_future": "Tecnologia com propósito."
+  },
+  "site": {
+    "cta_projects": "Ver Projetos",
+    "cta_projects_aria": "Navegar para seção de projetos"
+  }
+}
