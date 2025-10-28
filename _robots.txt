@@ -1,0 +1,47 @@
+# public/robots.txt
+User-agent: *
+Allow: /
+Sitemap: https://root-techlab.com/sitemap.xml
+
+# public/site.webmanifest
+#{
+#  "name": "Root Techlab",
+#  "short_name": "RootTech",
+#  "description": "Technology for the Green World",
+#  "start_url": "/",
+#  "display": "standalone",
+#  "background_color": "#0d2d25",
+#  "theme_color": "#0d2d25",
+#  "icons": [
+#    {
+#      "src": "/android-chrome-192x192.png",
+#      "sizes": "192x192",
+#      "type": "image/png"
+#    },
+#    {
+#      "src": "/android-chrome-512x512.png", 
+#      "sizes": "512x512",
+#      "type": "image/png"
+#    }
+#  ]
+#}
+
+# public/_redirects (para Netlify)
+# Redirect old URLs
+/home /
+/sobre /#about
+/servicos /#services
+/projetos /#projects
+/contato /#contact
+
+# Force HTTPS
+# https://root-techlab.com/* https://root-techlab.com/:splat 301!
+
+# public/_headers (para Netlify)
+#/*
+#  X-Frame-Options: DENY
+#  X-Content-Type-Options: nosniff
+#  X-XSS-Protection: 1; mode=block
+#  Referrer-Policy: strict-origin-when-cross-origin
+#  Permissions-Policy: geolocation=(), microphone=(), camera=()
+#  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; media-src 'self'; object-src 'none'; frame-src 'none';
