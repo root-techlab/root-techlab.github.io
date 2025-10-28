@@ -1,7 +1,4 @@
-import { defineNuxtConfig } from 'nuxt/config'
-
 export default defineNuxtConfig({
-  ssr: false, // Habilitado para melhor SEO
   modules: [
     '@nuxtjs/i18n',
     '@nuxtjs/robots' // Para robots.txt
@@ -44,9 +41,7 @@ export default defineNuxtConfig({
 
   // Configurações de SEO e Performance
   app: {
-    baseURL: process.env.NODE_ENV === 'production' 
-      ? '/root-techlab.github.io/' // ou '/nome-repo/' se não tiver domínio customizado
-      : '/',
+    baseURL: process.env.NODE_ENV === 'production' ? '/' : '/',
     head: {
       htmlAttrs: {
         lang: 'en'
@@ -170,18 +165,6 @@ export default defineNuxtConfig({
     payloadExtraction: false
   },
 
-  // Build configuration
-  nitro: {
-    preset: 'static',
-    prerender: {
-      crawlLinks: true,
-      routes: [
-        '/',
-        '/pt'
-      ]
-    }
-  },
-
   // Runtime config for environment variables
   runtimeConfig: {
     public: {
@@ -189,10 +172,5 @@ export default defineNuxtConfig({
       siteName: 'Root Techlab',
       siteDescription: 'Technology rooted in a sustainable future.'
     }
-  },
-
-  // Generate configuration for static sites
-  generate: {
-    fallback: true
   }
 })
